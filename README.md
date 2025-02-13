@@ -22,7 +22,7 @@ This is a MERN stack-based platform for e-waste recycling, allowing users to buy
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kunal697/ewastex.git](https://github.com/Anuj5504/EWaste-X.git)
+   git clone https://github.com/Anuj5504/EWaste-X.git
    ```
 2. Install dependencies:
    ```bash
