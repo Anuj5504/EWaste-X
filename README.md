@@ -20,8 +20,8 @@ This is a MERN stack-based platform for e-waste recycling, allowing users to buy
   - [Bid Schema](#bid-schema)
   - [Reward Schema](#reward-schema)
 
-##Website Link
-https://ewaste-x.netlify.app/
+## Website 
+Link - https://ewaste-x.netlify.app/
 
 ## Installation
 1. Clone the repository:
