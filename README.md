@@ -5,7 +5,6 @@ This is a MERN stack-based platform for e-waste recycling, allowing users to buy
 ## Table of Contents
 - [Website](#website)
 - [Installation](#installation)
-- [Authentication](#authentication)
 - [API Endpoints](#api-endpoints)
   - [E-Waste Management](#e-waste-management)
     - [Create E-Waste](#create-e-waste)
