@@ -3,6 +3,7 @@
 This is a MERN stack-based platform for e-waste recycling, allowing users to buy, sell, donate, and bid on e-waste. The platform also features a rewards system where users earn coins for their contributions, which can be exchanged for cryptocurrency.
 
 ## Table of Contents
+- [Website](#website)
 - [Installation](#installation)
 - [Authentication](#authentication)
 - [API Endpoints](#api-endpoints)
@@ -18,6 +19,9 @@ This is a MERN stack-based platform for e-waste recycling, allowing users to buy
   - [E-Waste Schema](#e-waste-schema)
   - [Bid Schema](#bid-schema)
   - [Reward Schema](#reward-schema)
+
+##Website Link
+https://ewaste-x.netlify.app/
 
 ## Installation
 1. Clone the repository:
