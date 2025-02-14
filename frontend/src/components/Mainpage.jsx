@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useDragControls } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Products from './Products';
 import Scan from './Scan';
-import Profile from './profile';
+import Profile from './Profile';
 import { FaQrcode, FaBoxOpen, FaUser, FaBars, FaTimes, FaDotCircle, FaRecycle } from 'react-icons/fa';
 import ProductCard from './ProductCard';
 import { toast } from 'react-hot-toast';
@@ -139,8 +139,8 @@ const MainPage = () => {
         >
             <motion.div
                 className={`flex flex-col items-center space-y-1 p-2 rounded-xl transition-colors ${activeComponent === component
-                        ? 'text-green-500'
-                        : 'text-gray-500 hover:text-green-500'
+                    ? 'text-green-500'
+                    : 'text-gray-500 hover:text-green-500'
                     }`}
             >
                 <span className="text-2xl">{icon}</span>
@@ -163,8 +163,8 @@ const MainPage = () => {
             whileTap={{ scale: 0.98 }}
             onClick={() => setActiveComponent(component)}
             className={`w-full flex items-center gap-4 p-4 rounded-xl transition-all relative ${activeComponent === component
-                    ? 'bg-green-100/80 text-green-600'
-                    : 'hover:bg-gray-100/80 text-gray-600'
+                ? 'bg-green-100/80 text-green-600'
+                : 'hover:bg-gray-100/80 text-gray-600'
                 }`}
         >
             <motion.div
@@ -216,9 +216,9 @@ const MainPage = () => {
             {isMobile ? <MobileNav /> : <FloatingSidebar />}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {products.map((product) => (
-                    <ProductCard 
-                        key={product._id} 
-                        product={product} 
+                    <ProductCard
+                        key={product._id}
+                        product={product}
                         onDelete={handleDelete}
                     />
                 ))}

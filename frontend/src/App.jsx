@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Navbar from './components/navbar';
-import Home from './components/home';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 import { Route, Routes } from 'react-router-dom';
-import LeaderBoard from './components/leaderBoard';
-import ImpactDashboard from './components/impactDashboard';
-import Profile from './components/profile';
+import LeaderBoard from './components/LeaderBoard';
+import ImpactDashboard from './components/ImpactDashboard';
+import Profile from './components/Profile';
 import Footer from './components/footer';
 import Login from './components/Login';
 import MainPage from './components/Mainpage';
@@ -24,22 +24,22 @@ function App() {
 
   return (
     <div>
-     
-        <>
-          <ToastContainer />
-          <Toaster/>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/leaderboard" element={<LeaderBoard />} />
-            <Route path="/impactdashboard" element={<ImpactDashboard />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/main" element={<MainPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/product/:id" element={<ProductInfo/>} />
-          </Routes>
-          <Footer />
-        </>
+
+      <>
+        <ToastContainer />
+        <Toaster />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/leaderboard" element={<LeaderBoard />} />
+          <Route path="/impactdashboard" element={<ImpactDashboard />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/main" element={<MainPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/product/:id" element={<ProductInfo />} />
+        </Routes>
+        <Footer />
+      </>
     </div>
   );
 }

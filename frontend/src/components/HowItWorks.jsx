@@ -9,7 +9,7 @@ const HowItWorks = () => {
             title: "Register E-Waste",
             description: "List your electronic waste items for donation or sale on our platform.",
             color: "from-green-400 to-green-600"
-        },
+         },
         {
             icon: <FaHandshake />,
             title: "Connect & Trade",
