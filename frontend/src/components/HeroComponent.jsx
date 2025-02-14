@@ -232,10 +232,9 @@ const HeroSection = () => {
             className="relative flex justify-center order-1 lg:order-2"
           >
             <motion.div
-              // variants={floatingAnimation}
               initial="initial"
               animate="animate"
-              className="relative w-full max-w-lg xl:max-w-xl"
+              className="relative w-full max-w-lg xl:max-w-xl hidden sm:block" // Hide on mobile, show on sm+
             >
               <motion.div
                 className="absolute inset-0 bg-gradient-to-br from-green-400/30 to-teal-300/30 rounded-3xl blur-2xl"
@@ -252,11 +251,11 @@ const HeroSection = () => {
               <img
                 src="/bin.jpg"
                 alt="E-waste Recycling Illustration"
-                className="relative rounded-3xl shadow-2xl h-[14cm] w-[13cm]
-                  border-4 border-white/50 backdrop-blur-sm"
+                className="relative rounded-3xl shadow-2xl h-[14cm] w-[13cm] border-4 border-white/50 backdrop-blur-sm"
               />
             </motion.div>
           </motion.div>
+
         </div>
       </div>
 
